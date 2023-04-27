@@ -1,0 +1,9 @@
+{
+  "EcommerceDB":{
+    "dbConfig": {
+        "host": "localhost",
+        "port": 4000,
+        "dbUri": "mongodb+srv://user:user1234@cluster0.3sjahvg.mongodb.net/?retryWrites=true&w=majority"
+      }
+  }
+}
