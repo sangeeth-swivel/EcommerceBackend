@@ -4,7 +4,7 @@ import log from "./utils/logger";
 import createServer from "./utils/server";
 
 const app = createServer();
-const port = process.env.PORT || config.get<Number>('port');
+const port = process.env.PORT || config.get('port');
 
 app.listen(port, async () => {
   log.info(`Server started on port ${port}`);
